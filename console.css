@@ -1,0 +1,51 @@
+.console-logger-wrap {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 15px;
+    height: 160px;
+    display: none;
+    font-size: 14px;
+    font-family: 'Arial';
+}
+
+.console-logger-checkboxes label {
+    margin-right: 15px;
+}
+
+.console-logger {
+  border: 1px solid grey;
+  overflow-y: scroll;
+  padding: 5px;
+  height: 140px;
+  width: 98%;
+  margin: 0 5px;
+}
+
+.console-logger-item .count {
+    font-size: 10px;
+    color: grey;
+    margin-right: 2px;
+}
+
+.console-logger-item .number {
+    color: blue;
+}
+
+.console-logger-item .string {
+    color: red;
+}
+
+.console-logger-item .undefined {
+    color: #cccccc;
+}
+
+.console-logger-item .function {
+    font-style: italic;
+}
+
+.console-logger-item.error {
+    color: red;
+    background-color: #ffcccc;
+}
+
